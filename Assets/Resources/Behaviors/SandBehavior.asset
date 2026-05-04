@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9307df51d7c1cde43b52b96c9cc7a99a, type: 3}
+  m_Name: SandBehavior
+  m_EditorClassIdentifier: Assembly-CSharp::SandBehavior
+  slowPercent: 0.5
+  fireSpell: {fileID: 11400000, guid: 87c3685ed489ed84c9d2b3d5ff2f3098, type: 2}
+  GlassSpell: {fileID: 11400000, guid: da41f16955c1b56439e5950514c5bf9f, type: 2}

@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GroundSpellAnimator
+  m_Controller: {fileID: 9100000, guid: 797ff622717f5f149a88d69e349204ae, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 89207e238dfdf694a882f5802b628693, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5417ce52951e41649a5dc6916e967e17, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 179a4514d27427e4fadf4fe9792fb5c6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f8fcc19e7a3c8b84688d7741616d9bd3, type: 2}

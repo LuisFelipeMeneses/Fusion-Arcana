@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a319421c6d845543a9817ffdfdc23e2, type: 3}
+  m_Name: MudSpell
+  m_EditorClassIdentifier: Assembly-CSharp::FusionSpellSO
+  spellName: Mud
+  xSpeed: 0
+  damage: 0
+  strongWith: []
+  animations: {fileID: 22100000, guid: e4a44fdec3032b3459d616b4e0114c15, type: 2}
+  hitAnimations: {fileID: 22100000, guid: d6f0d360f2ca8d74d91a5d19d77db48c, type: 2}
+  imageHUD: {fileID: -1052142042975015993, guid: 8549fab3feb172346a6f9076acf5363c, type: 3}
+  behaviors:
+  - {fileID: 11400000, guid: f55b7d8375942ce4b87ec94415ffbff1, type: 2}
+  components:
+  - {fileID: 11400000, guid: 417e3457a1370df48b4e08fa1f4189d3, type: 2}
+  - {fileID: 11400000, guid: 34b6dd974a7300741b79137385e98336, type: 2}

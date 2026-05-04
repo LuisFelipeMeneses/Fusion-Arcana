@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a319421c6d845543a9817ffdfdc23e2, type: 3}
+  m_Name: LavaSpell
+  m_EditorClassIdentifier: Assembly-CSharp::FusionSpellSO
+  spellName: Lava
+  xSpeed: 1
+  damage: 10
+  strongWith: []
+  animations: {fileID: 22100000, guid: 23506eb3ec60cff449849c6b9581d7b3, type: 2}
+  hitAnimations: {fileID: 22100000, guid: 337ef90a1e26bde43b291118fd6b66eb, type: 2}
+  imageHUD: {fileID: 3460892171850310401, guid: 2aa8dc4ce0ee6424799bf7c8903796a4, type: 3}
+  behaviors:
+  - {fileID: 11400000, guid: ecd62a313ba8d0f43a195a302d6b40be, type: 2}
+  components:
+  - {fileID: 11400000, guid: 87c3685ed489ed84c9d2b3d5ff2f3098, type: 2}
+  - {fileID: 11400000, guid: 34b6dd974a7300741b79137385e98336, type: 2}

@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FireSpellAnimator
+  m_Controller: {fileID: 9100000, guid: 797ff622717f5f149a88d69e349204ae, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 89207e238dfdf694a882f5802b628693, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 17a5e0b1d40b01646a956fd9f5d07a7c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 179a4514d27427e4fadf4fe9792fb5c6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7a2a28e6a26a46443bb8c70426019887, type: 2}

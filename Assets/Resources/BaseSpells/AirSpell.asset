@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab2835ae6f09fd44a1d640fde40f58e, type: 3}
+  m_Name: AirSpell
+  m_EditorClassIdentifier: Assembly-CSharp::BaseSpellSO
+  spellName: Air
+  xSpeed: 2
+  damage: 10
+  strongWith: []
+  animations: {fileID: 22100000, guid: 7c8af03269e2ae6459f5f7113be395ae, type: 2}
+  hitAnimations: {fileID: 22100000, guid: 3ebf41a1db25e2a47b6b3ea47d55dd6a, type: 2}
+  imageHUD: {fileID: -8452308638314353520, guid: bee523ffc394f5d46bc074a714a8be3e, type: 3}
+  behaviors:
+  - {fileID: 11400000, guid: 43a7fd0295e48d849baf17fbbea1332b, type: 2}
+  combo: 02000000040000000200000004000000

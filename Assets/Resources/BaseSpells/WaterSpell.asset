@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab2835ae6f09fd44a1d640fde40f58e, type: 3}
+  m_Name: WaterSpell
+  m_EditorClassIdentifier: Assembly-CSharp::BaseSpellSO
+  spellName: Water
+  xSpeed: 2
+  damage: 10
+  strongWith:
+  - {fileID: 11400000, guid: 87c3685ed489ed84c9d2b3d5ff2f3098, type: 2}
+  animations: {fileID: 22100000, guid: 34999634b2ef52643bf69e074fda36f1, type: 2}
+  hitAnimations: {fileID: 22100000, guid: f97629c88433d79469299a1465fb4e51, type: 2}
+  imageHUD: {fileID: 6414006518809078020, guid: 5a4fa61e151a92848bac5ffa516480b4, type: 3}
+  behaviors:
+  - {fileID: 11400000, guid: 43a7fd0295e48d849baf17fbbea1332b, type: 2}
+  combo: 03000000040000000300000004000000

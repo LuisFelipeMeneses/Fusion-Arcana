@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab2835ae6f09fd44a1d640fde40f58e, type: 3}
+  m_Name: GroundSpell
+  m_EditorClassIdentifier: Assembly-CSharp::BaseSpellSO
+  spellName: Ground
+  xSpeed: 2
+  damage: 10
+  strongWith: []
+  animations: {fileID: 22100000, guid: e4a44fdec3032b3459d616b4e0114c15, type: 2}
+  hitAnimations: {fileID: 22100000, guid: d6f0d360f2ca8d74d91a5d19d77db48c, type: 2}
+  imageHUD: {fileID: 2412629895516989505, guid: 1499c954af29389448902174e8d58a2e, type: 3}
+  behaviors:
+  - {fileID: 11400000, guid: 43a7fd0295e48d849baf17fbbea1332b, type: 2}
+  combo: 01000000030000000200000004000000
